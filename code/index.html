@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alexanders Profile Card</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div class="profile-card">
+    <!-- Profile Picture -->
+    <img src="../assets/imgs/IMG_20240921_172436_4 (2).jpg" alt="Profile Picture" data-testid="profilePicture" class="profile-picture">
+
+    <!-- Full Name -->
+    <h1 data-testid="fullName">Falere Alexander</h1>
+
+    <!-- Job Title -->
+    <h2 data-testid="jobTitle">Front Developer</h2>
+
+    <!-- Short Bio -->
+    <p data-testid="shortBio">
+      Passionate frontend developer with 1+ years of experience in building scalable web applications. 
+      Skilled in JavaScript, React, and Always eager to learn and contribute to innovative projects.
+    </p>
+
+    <!-- Current Location -->
+    <p data-testid="currentLocation">Lagos, NIGERIA</p>
+
+    <!-- Email Address -->
+    <p data-testid="emailAddress">alexanderfalere@gmail.com</p>
+
+    <!-- Social Links -->
+    <div data-testid="socialLinks" class="social-links">
+      <a href="https://www.linkedin.com/in/alexander-falere-7727a6151/" target="_blank">LinkedIn</a>
+      <a href="https://github.com/Alexanderlucid" target="_blank">GitHub</a>
+      <a href="https://x.com/LucidCode28" target="_blank">Twitter</a>
+    </div>
+
+    <!-- Current Time in UTC -->
+    <p data-testid="currentTimeUTC" class="utc-time"></p>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
